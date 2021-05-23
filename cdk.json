@@ -31,7 +31,7 @@
     "cognito_idpool_auth_iamrolearn_ssmparamname": "/v/auth/cognito/idpool/auth/iam/role/arn/2",
     "cognito_idpool_unauth_iamrolearn_ssmparamname": "/v/auth/cognito/idpool/unauth/iam/role/arn/2",
     "cognito_idpool_id_exportname": "v-auth-cognito-idpool-id-2",
-    "cognito_userpool_id_exportname": "v2-auth-cognito-userpool-id-2",
+    "cognito_userpool_id_exportname": "v-auth-cognito-userpool-id-2",
     "cognito_userpool_webclient_id_exportname": "v-auth-cognito-userpool-webclient-id-2",
     "cognito_userpool_fqdn_exportname": "v-auth-cognito-userpool-fqdn-2",
     "cognito_idpool_auth_iamrolearn_exportname": "v-auth-cognito-idpool-auth-iamrolearn-2",
