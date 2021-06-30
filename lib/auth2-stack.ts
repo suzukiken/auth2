@@ -153,6 +153,9 @@ export class Auth2Stack extends cdk.Stack {
           cognito.UserPoolClientIdentityProvider.GOOGLE,
         ],
         oAuth: oauth_settings,
+        idTokenValidity: cdk.Duration.hours(1),
+        refreshTokenValidity: cdk.Duration.days(3),
+        accessTokenValidity: cdk.Duration.hours(1)
       }
     );
     
@@ -166,6 +169,9 @@ export class Auth2Stack extends cdk.Stack {
           cognito.UserPoolClientIdentityProvider.GOOGLE,
         ],
         oAuth: oauth_settings,
+        idTokenValidity: cdk.Duration.hours(1),
+        refreshTokenValidity: cdk.Duration.days(3),
+        accessTokenValidity: cdk.Duration.hours(1)
       }
     );
     
@@ -180,6 +186,9 @@ export class Auth2Stack extends cdk.Stack {
           cognito.UserPoolClientIdentityProvider.GOOGLE,
         ],
         oAuth: oauth_settings,
+        idTokenValidity: cdk.Duration.hours(1),
+        refreshTokenValidity: cdk.Duration.days(3),
+        accessTokenValidity: cdk.Duration.hours(1)
       }
     );
     
